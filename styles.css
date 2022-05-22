@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 640px;
+    text-align: center;
+}
+
+.dark-mode-icon {
+    width: 6rem;
+    cursor: pointer;
+}
+
+.dark-mode-icon:hover {
+    opacity: .5;
+}
+
+.dark-mode {
+    background-color: #202020;
+    color: white;
+}
